@@ -13,6 +13,7 @@ RUN apt-get update -qq \
   flex bison texinfo libncurses5-dev \
   bash make g++ git libelf-dev \
   xxd ca-certificates wget mtools patch \
+  neovim \
  && rm -r /var/lib/apt/lists /var/cache/apt/archives \
  && addgroup \
     --gid $GID \
