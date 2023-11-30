@@ -12,7 +12,7 @@ RUN apt-get update -qq \
  && apt-get install -y --no-install-recommends \
   flex bison texinfo libncurses5-dev \
   bash make g++ git libelf-dev \
-  xxd ca-certificates wget mtools \
+  xxd ca-certificates wget mtools patch \
  && rm -r /var/lib/apt/lists /var/cache/apt/archives \
  && addgroup \
     --gid $GID \
