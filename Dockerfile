@@ -14,6 +14,7 @@ RUN apt-get update -qq \
   bash make g++ git libelf-dev \
   xxd ca-certificates wget mtools patch \
   neovim \
+  nasm \
  && rm -r /var/lib/apt/lists /var/cache/apt/archives \
  && addgroup \
     --gid $GID \
