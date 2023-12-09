@@ -18,7 +18,7 @@ fi
 #
 # start networking
 #
-net start slip 38400
+net start slip 9600
 
 # View message of day
 #if test -f /etc/motd; then
